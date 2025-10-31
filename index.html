@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Book Store</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.0.12/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-100 font-sans">
+    <header class="bg-blue-600 text-white p-4">
+        <h1 class="text-center text-3xl font-bold">Welcome to Our Online Book Store!</h1>
+    </header>
+    <main class="p-8">
+        <section id="search" class="py-4">
+            <input id="searchBar" type="text" placeholder="Search for books..." class="w-full p-2 border border-gray-300 rounded-md">
+        </section>
+        <section id="featured" class="py-8">
+            <h2 class="text-xl font-bold">Featured Books</h2>
+            <div id="bookContainer" class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4">
+                <!-- Books will be dynamically inserted here -->
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
