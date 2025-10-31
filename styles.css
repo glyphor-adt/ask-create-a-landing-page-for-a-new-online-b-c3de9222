@@ -1,0 +1,27 @@
+/* Custom styles for the book store landing page */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+#searchBar {
+    transition: border 0.3s ease;
+}
+
+#searchBar:focus {
+    border-color: blue;
+}
+
+/* Add some custom styles to the books */
+.book-card {
+    background-color: white;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.book-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 8px;
+}
